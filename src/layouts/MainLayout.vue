@@ -22,6 +22,7 @@
       side="left"
       :width="283"
       bordered
+      class="bg"
     >
       <!-- drawer content -->
       <q-icon class="q-pa-md" name="fab fa-twitter" size="lg" color="primary" />
@@ -164,5 +165,10 @@ export default {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+.bg {
+  background-color: white;
+  position: relative;
+  z-index: 10;
 }
 </style>

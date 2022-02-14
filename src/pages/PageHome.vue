@@ -196,4 +196,7 @@ export default defineComponent({
 .qweet-icons {
   margin-left: -5px;
 }
+.fullscreen {
+  z-index: 0;
+}
 </style>
