@@ -157,7 +157,7 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .header-icon {
   position: absolute;
   bottom: 0;
